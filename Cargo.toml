@@ -1,0 +1,13 @@
+[package]
+name = "un_unhcr_refugee_ai"
+version = "0.1.0"
+edition = "2021"
+description = "UNHCR RefugeTrust AI: Self-Sovereign Identity for Displaced Populations, Cross-Border Family Reunification and Aid Ledgers"
+license = "Apache-2.0"
+
+[dependencies]
+candid = "0.10"
+serde = { version = "1.0", features = ["derive"] }
+
+[lib]
+crate-type = ["cdylib", "lib"]
